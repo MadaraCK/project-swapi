@@ -1,0 +1,70 @@
+.zdjecie {
+  width: 800px;
+  border-radius: 500px 60px 300px 100px;
+  background: rgba(54, 44, 44, 0.15);
+  box-shadow: 8px 3px 4px #567;
+  padding: 55px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.zdjBody {
+  max-width: 434px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+.zdjecie img {
+  border-radius: 200px 20px 100px 50px;
+  width: 100%;
+  margin: 25px auto;
+}
+.colName {
+  text-align: center;
+}
+.colZdj {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.btnNext {
+  background: #35660E;
+  color: white;
+  padding: 15px 25px;
+  margin-top: 25px;
+  box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  border: 1px solid #35660E;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+}
+.formRejBtn {
+  background: #40483A;
+  box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+}
+.headerHome {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.headerHome .colForm {
+  display: flex;
+  justify-content: end;
+}
+.headerHome p {
+  cursor: pointer;
+  display: block;
+  width: 236px;
+  margin: 25px;
+  padding: 15px 25px;
+}
+/*# sourceMappingURL=homeStyle.css.map */

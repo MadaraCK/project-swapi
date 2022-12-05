@@ -1,0 +1,45 @@
+.register-form {
+  max-width: 752px;
+  margin: auto;
+  padding-top: 50px;
+}
+.register-form .form-label {
+  margin: 15px 0 0 0;
+  font-weight: bold;
+}
+.register-form .form-control {
+  border: none;
+  border-bottom: 1.5px solid #456;
+  border-radius: 0;
+  padding: 0;
+}
+.register-form .btnWyslij {
+  background: #071594;
+  box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  color: white;
+  padding: 5px 30px;
+}
+.register-form .reg {
+  display: inline-block;
+  background-color: #35660E;
+}
+.register-form .buttons-line {
+  margin-top: 15px;
+  text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: right;
+}
+.frLabel {
+  display: block;
+  text-align: right;
+}
+.frBox {
+  display: block;
+  height: 10px;
+  background: #35660E;
+  width: 350px;
+}
+/*# sourceMappingURL=formularzStyle.css.map */
